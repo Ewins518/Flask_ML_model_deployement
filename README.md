@@ -1,4 +1,4 @@
-# Flask for ML model deployement
+# Flask for ML model deployment
 
 ## Overview
 This project demonstrates how to deploy a Machine Learning model using Flask to create a web application for making predictions online. The deployed model predicts fuel consumption in miles per gallon (mpg) based on input features.
@@ -69,11 +69,19 @@ Visit your deployed app using the URL provided by Heroku.
 The project structure is organized as follows:
 
 `app.py`: The Flask application that serves the web interface and handles predictions.
+
 `model.pkl`: The trained machine learning model for predicting fuel consumption.
+
 `templates/`: HTML templates for the web interface.
+
 `static/`: Static files (CSS) used in the web application.
+
 `requirements.txt`: List of Python packages required to run the application.
+
 `Procfile`: Configuration file for Heroku deployment.
+
 `README.md`: This README file.
+
 `autos_mpg.csv` : CSV file for model training
+
 `ML_model.ipynb` : Jupiter notebook for model training
